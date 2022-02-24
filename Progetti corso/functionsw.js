@@ -37,7 +37,7 @@ function pattm(x,z){
     for(var i=0;y<=x.lenght;i++);{
      var j; 
     
-     for(var j=0;j<<M;i++);
+     for(var j=0;j<M;i++);
 
       if (a2[j+1] !=[1])
       break;
