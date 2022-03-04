@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+    <body>
+        <form method="post" name="modulo" onsubmit="return Testpass">
+        <input type="email" id="email" size="50" value="">
+        <br>
+        <input type="password" id="password " size="50" value="">
+        <br>
+        <input type="password" id="conferma password" size="50" value="">
+        <br>
+        <input type="text" id="nome" size="50" value="">
+        <br>
+        <input type="text" id="cognome" size="50" value="">
+        <br>
+        <input type="number" id="eta" size="50" value="">
+        <br>
+        <input type="radio" id="sesso" size="50" value="">
+        <select name="regione">
+            <option value="nessuna"> nessuna </option>
+            <option value="Lazio"> Lazio </option>
+            <option value="Lombardia"> Lombardia </option>
+            <option value="Toscana"> Toscana </option>
+            <option value="Umbria"> Umbria </option>
+        </select>
+        <br>
+        <input type="button" name="SET" size="20" placeholder="Set" onclick="return ConfermaPsw('POST',req )">
+        
+        <input type="button" name="GET" size="20" placeholder="Get" onclick="return ConfermaEmailPsw('POST',req1)">
+        <input type="button" name="UPDATE"size="20" placeholder="Update" onclick="return Update('POST',req2)">
+        <input type="button" name="invio"  onclick= "return invioData('POST', req)">
+    </form>
+    </body>
+    <script type="text/javascript" src="Esercizio.js"></script>
+
+</html>

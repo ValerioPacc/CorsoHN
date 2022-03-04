@@ -12,7 +12,7 @@ public class Cliente{
    public static void main(String[] args){
     Persona p1;
        p1= new Persona("b","a");
-       p1.setResidenza("c");
+       p1.setResidenza("Spinaceto");
        System.out.println(p1.getResidenza());
        p1.setNome("Valerio");
        System.out.println("Valerio");
